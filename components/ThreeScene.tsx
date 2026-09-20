@@ -290,7 +290,6 @@ export default function ThreeScene() {
   return (
     <div className="hero-figure" id="heroFigure" ref={figureRef} aria-hidden="true">
       <canvas id="heroCanvas" ref={canvasRef} />
-      <span className="hero-figure-hint">Drag to rotate</span>
       <svg viewBox="0 0 480 560" className="blueprint-svg" id="heroSvgFallback">
         <defs>
           <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
